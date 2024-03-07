@@ -1,0 +1,143 @@
+/* App.css */
+
+/* ... Your existing styles ... */
+
+h1 {
+  text-align: center;
+  color: #333;
+  padding: 20px;
+  background-color: #4caf50;
+  margin: 0;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+/* App.css */
+
+/* App.css */
+
+/* ... Your existing styles ... */
+
+.product-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.product-item {
+  list-style: none;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  text-align: center;
+  width: 50px; /* Adjusted width to 100px for better alignment */
+}
+
+.product-item img {
+  max-width: 50px; /* Set the max-width to 80px */
+  height: auto;
+}
+
+.product-item p {
+  margin: 5px 0;
+}
+
+
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Login.css */
+
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+}
